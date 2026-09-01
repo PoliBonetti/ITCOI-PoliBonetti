@@ -36,7 +36,7 @@ void loop() {
   digitalWrite(pedVerde, LOW);
   for (int i = 0; i<5; i++) {
     digitalWrite(pedVermelho, HIGH);
-    delay(500);
+    delay(550);
     digitalWrite(pedVermelho, LOW);
     delay(500);
   }
